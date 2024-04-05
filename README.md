@@ -68,6 +68,10 @@ Create the following routes as efficiently as possible, using validation where a
 
 <br>  
 
+
+Response:
+The strategy for updating employee department utilizes the patch strategy, focusing solely on updating partial information. Conversely, for patients, the put strategy is employed to update the entirety of patient data. It's worth noting that PUT is idempotent and simpler to implement, while PATCH, although not idempotent, can be more memory efficient.
+
 ## FAQs
 
 <br>
